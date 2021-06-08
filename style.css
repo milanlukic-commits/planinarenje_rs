@@ -32,6 +32,11 @@ a {
     text-decoration: none;
     transition: var(--transition);
 }
+h2 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
 button {
     padding: 15px 30px;
     font-size: 1rem;
@@ -42,6 +47,9 @@ button {
     margin-top: 20px;
     cursor: pointer;
     transition: var(--transition);
+}
+button:hover {
+    background: var(--white);
 }
 
 /* topbar */
@@ -67,6 +75,12 @@ button {
 }
 
 /* main */
+main {
+    max-width: 1140px;
+    margin: 50px auto;
+}
+
+/* uvod */
 .uvod {
     display: flex;
     color: var(--white);
@@ -76,9 +90,6 @@ button {
 }
 .uvod article:last-child {
     flex: 0 0 60%;
-    /* background-image: url(img/uvod.jpg);
-    background-position: center;
-    background-size: cover; */
 }
 .uvod img {
     height: 100%;
@@ -87,6 +98,7 @@ button {
 }
 .uvod div {
     padding: 50px;
+    font-size: 1.2rem;
 }
 .uvod div:first-child {
     background: var(--darkGreen);
