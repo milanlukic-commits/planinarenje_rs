@@ -157,3 +157,22 @@ main {
     color: var(--white);
     margin-bottom: 30px;
 }
+
+/* programi */
+.programi {
+    background: var(--white);
+    padding: 50px;
+}
+.programi img {
+    width: 100%;
+    display: block;
+    height: 35vh;
+    object-fit: cover;
+}
+.programi article {
+    display: flex;
+    flex-wrap: wrap;
+}
+.programi article div {
+    flex: 0 0 50%;
+}
