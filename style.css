@@ -110,4 +110,24 @@ main {
     margin-bottom: 20px;
 }
 
+/* info */
+.info {
+    background: var(--white);
+    text-align: center;
+    padding: var(--py);
+}
+.info article:first-child {
+    margin-bottom: 50px;
+}
+.info article:last-child {
+    display: flex;
+    flex-wrap: wrap;
+}
+.info article:last-child div {
+    flex: 1;
+    border-right: 1px solid var(--gray);
+}
+.info div:last-child {
+    border: none;
+}
 
