@@ -147,3 +147,13 @@ main {
     margin-bottom: 20px;
 }
 
+/* slider */
+.slider {
+    background: var(--lightGreen);
+    text-align: center;
+    padding: var(--py);
+}
+.slider h2 {
+    color: var(--white);
+    margin-bottom: 30px;
+}
