@@ -83,6 +83,7 @@ main {
 /* uvod */
 .uvod {
     display: flex;
+    flex-wrap: wrap;
     color: var(--white);
 }
 .uvod article:first-child {
@@ -123,7 +124,7 @@ main {
     display: flex;
     flex-wrap: wrap;
 }
-.info article:last-child div {
+.info div {
     flex: 1;
     border-right: 1px solid var(--gray);
 }
